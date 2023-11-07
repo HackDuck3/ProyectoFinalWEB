@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visítanos - Centro Comercial</title>
+    <!-- Agregar logo en la pestaña -->
+    <link rel="icon" type="image/png" href="img/PlazaNorte2Logo.png" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <!-- Estilos personalizados -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Tipografia Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noticia+Text&family=Poltawski+Nowy:ital,wght@0,500;0,700;1,500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-color">
+            <h1><a class="navbar-brand" href="index.html">Plaza Norte 2</a></h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tiendas.html">Tiendas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="restaurantes.html">Restaurantes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="visitanos.html">Visitanos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="container section-title margin">
+                <h2 class="text-center">Horarios</h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3">
+                        <table class="table table-bordered">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th>Día</th>
+                                    <th>Horario</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Lunes a Sabado</td>
+                                    <td>10:00 - 22:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Domingo</td>
+                                    <td>11:00 - 21:00</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container section-title">
+                <h2 class="text-center">Dirección</h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 offset-md-3">
+                        <address>
+                            <strong>Centro Comercial Plaza Norte 2</strong><br />
+                            Mall Plaza Norte 2 <br />
+                            Plaza del Comercio 11-12 <br />
+                            28703 San Sebastián de los Reyes (Madrid) <br />
+                            España
+                        </address>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container section-title">
+                <h2 class="text-center">Transporte</h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4 class="text-center">Transporte Público</h4>
+                        <p class="text-center">Autobús: Línea 156 desde Plaza de Castilla.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <h4 class="text-center">Cómo llegar en coche</h4>
+                        <p class="text-center">A1 Crta. de Burgos Salidas 17 y 19<br />
+                            San Sebastián de los Reyes, Madrid</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section>
+            <div class="container section-title">
+                <h2 class="text-center">Mapa de Localización</h2>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3032.033290765449!2d-3.6160932880033334!3d40.54085364795569!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422cde0b7c5567%3A0xabbb242cbe4258e0!2sCentro%20Comercial%20Plaza%20Norte%202!5e0!3m2!1ses!2ses!4v1685645654455!5m2!1ses!2ses"
+                                frameborder="0" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container section-title">
+                <h2 class="text-center">Plano de los Establecimientos</h2>
+            </div>
+            <div class="container">
+                <div id="planta-slider" class="carousel slide" data-ride="carousel">
+                    <!-- Indicadores -->
+                    <ul class="carousel-indicators">
+                        <li data-target="#planta-slider" data-slide-to="0" class="active"></li>
+                        <li data-target="#planta-slider" data-slide-to="1"></li>
+                    </ul>
+
+                    <!-- Slides -->
+                    <div class="carousel-inner">
+                        <!-- Slide de la Planta 1 -->
+                        <div class="carousel-item active">
+                            <img src="img/plano_planta1.png" class="d-block w-100" alt="Planta 1">
+                        </div>
+
+                        <!-- Slide de la Planta 2 -->
+                        <div class="carousel-item">
+                            <img src="img/plano-planta2.png" class="d-block w-100" alt="Planta 2">
+                        </div>
+                    </div>
+
+                    <!-- Controles -->
+                    <a class="carousel-control-prev" href="#planta-slider" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#planta-slider" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="footer-text">&copy; 2023 Centro Comercial Plaza Norte 2. Todos los derechos reservados.
+                    </p>
+                    <div class="social-icons">
+                        <a href="#" target="_blank" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    </div>
+                    <div class="footer-links">
+                        <a href="#" target="_blank" class="footer-link">Sitio Real</a>
+                        <a href="#" target="_blank" class="footer-link">Aviso Legal</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- jQuery y Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/52ff092a46.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
