@@ -1,0 +1,334 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noticia Text', serif;
+    background-color: #f3f3f3;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Poltawski Nowy', serif;
+}
+
+h2 {
+    font-size: 500;
+    font-style: italic;
+}
+
+.btn-primary {
+    background-color: #e6bc33;
+    border-color: #bb9312;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #bb9312;
+    border-color: #e6bc33;
+}
+
+.btn-primary:active {
+    background-color: #e6bc33 !important;
+    border-color: #bb9312 !important;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-size: 16px;
+    margin-left: 15px;
+}
+
+.active {
+    color: black !important;
+    font-weight: bold !important;
+    background-color: #e6bc33 !important;
+    padding-left: 10px !important;
+}
+
+/* Estilos para la barra de navegación responsive */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    z-index: 9999;
+}
+
+.navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+.navbar-nav {
+    display: flex;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 15px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: #e6bc33;
+}
+
+
+section {
+    margin-bottom: 40px;
+}
+
+main {
+    margin-bottom: 40px;
+}
+
+.margin {
+    margin-top: 100px !important;
+    font-weight: bold;
+}
+
+.bg-color {
+    background-color: #bb9312;
+}
+
+.container {
+    margin-top: 40px;
+}
+
+.jumbotron {
+    position: relative;
+    padding: 50px;
+    text-align: center;
+    padding-bottom: 300px;
+    padding-top: 300px;
+}
+
+.jumbotron-gradient {
+    position: relative;
+    background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(img/PlazaNorte2Main.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.jumbotron-overlay {
+    background-color: rgba(235, 215, 86, 0.692);
+    border-radius: 20px;
+    padding: 50px;
+}
+
+
+.card-video {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    margin: 0;
+}
+
+.card-video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card {
+    height: 100%;
+    margin: 0;
+}
+
+.card .card-body {
+    padding-bottom: 0;
+}
+
+.card-overlay {
+    margin-top: 20px;
+}
+
+.card-text {
+    margin-bottom: 30px !important;
+}
+
+.card:hover {
+    background-color: #e6bc33 !important;
+}
+
+.carrusel-index {
+    max-width: 1200px;
+    max-height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.img-plano {
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/*Para formulario*/
+.form-control {
+    border-radius: 1;
+}
+
+.contacto {
+    margin-top: 50px;
+    padding-bottom: 20px !important;
+}
+
+/* Estilos personalizados de tiendas.html */
+
+.thumbnail {
+    cursor: pointer;
+    height: 250px;
+    overflow: hidden;
+}
+
+.square-thumbnail {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+}
+
+.square-thumbnail .thumbnail {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.square-thumbnail img {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
+
+.square-thumbnail:hover {
+    transform: scale(1.2);
+}
+
+
+.caption {
+    padding: 10px;
+}
+
+.caption h4 {
+    margin-bottom: 10px;
+    padding-top: 50px;
+}
+
+@media (max-width: 991px) {
+    .col-md-3 {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-md-3 {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+}
+
+
+.modal-dialog {
+    max-width: 600px;
+}
+
+.modal-content {
+    padding: 20px;
+}
+
+.modal-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.modal-body p {
+    margin-bottom: 10px;
+}
+
+
+/*Estilos de visitanos*/
+.carousel-indicators li {
+    background-color: #555;
+    width: 50px;
+    height: 3px;
+    border-radius: 0;
+}
+
+.carousel-caption {
+    margin-top: 100px !important;
+}
+
+/*CSS para footer*/
+footer {
+    background-color: #333;
+    color: #fff;
+}
+
+.footer-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.social-icons {
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    color: #fff;
+    font-size: 24px;
+    margin-right: 10px;
+    transition: color 0.3s;
+}
+
+.social-icon:hover {
+    color: #e6bc33;
+}
+
+.footer-links {
+    margin-top: 20px;
+}
+
+.footer-link {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+    transition: color 0.3s;
+}
+
+.footer-link:hover {
+    color: #e6bc33;
+}
